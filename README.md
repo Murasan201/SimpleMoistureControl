@@ -10,7 +10,7 @@
 
 ## 必要条件
 - Arduino IDE
-- Arduino Unoボード
+- Arduino Uno R4ボード
 - [SunFounder Ultimate Sensor Kit](https://docs.sunfounder.com/projects/ultimate-sensor-kit/en/latest/)
 - 適切な配線材料
 
