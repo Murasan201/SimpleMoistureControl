@@ -32,7 +32,7 @@ void loop() {
   Serial.print("Soil Moisture Percentage: ");
   Serial.println(moisturePercentage);
 
-  if (moisturePercentage < waterThreshold) {
+  if (moisturePercentage > waterThreshold) {
     if (!pumpStatus) {
       turnOnPump();  // ポンプをONにする
     }
